@@ -1,0 +1,21 @@
+.class
+.idea
+out
+build
+*.iml
+
+# Ignore Gradle GUI config
+
+.gradle
+gradle-app.setting
+gradle-wrapper.jar
+gradle-wrapper.properties
+gradlew
+gradlew.bat
+
+# Cache of project
+
+.gradletasknamecache
+.project
+.classpath
+

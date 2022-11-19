@@ -1,0 +1,51 @@
+.scrollableArea {
+    width: 800px;
+    height: 485px;
+    overflow-y: scroll;
+}
+
+.scrollableArea::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollableArea {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.scrollableMenu {
+    width: 330px;
+    height: 600px;
+    padding-bottom: -90px;
+    overflow-y: scroll;
+}
+
+.scrollableMenu::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollableMenu {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 30%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 90%;
+    width: 100%;
+    position: absolute;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
